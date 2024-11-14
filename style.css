@@ -120,9 +120,78 @@ h1,h2,h3,h4,h5,h6,span,a,div,section,img,svg{
     color: red;
 
 }
-/* banner css End  */
-/* footer css start  */
+/* banner css End  *
 
+/* ourService css Start  */
+    .ourService{
+        margin: 100px 0px;
+    }
+    .ourServiceTop{
+        max-width: 542px;
+        margin: auto;
+        text-align: center;
+    }
+    .ourServiceTop__title{
+        font-size: 40px;
+        font-weight: 700;
+        color: #181818;
+    }
+    .ourServiceTop__summary{
+        font-size: 16px;
+        color: #181818;
+        opacity: .7;
+        line-height: 27px;
+        padding:20px 0px 50px 0px;
+    }
+    /* .ourServiceWrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    } */
+   .serviceCardWrapperTop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+   }
+   .serviceCardWrapperBottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+   }
+    .serviceCard{
+        max-width: 370px;
+        border: 1px solid gray;
+        padding: 63px 48px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction:column;
+        row-gap: 25px;
+    }
+    .serviceCard__icon{
+        padding: 17px;
+        background: #5956E8;
+        border-radius: 10px;
+    }
+    .serviceCard__title{
+        font-size: 25px;
+        font-weight: 700;
+        color: #181818;
+    }
+    .serviceCard__summary{
+        font-size: 16px;
+        line-height: 27px;
+        font-weight: 400;
+        color: #181818;
+        opacity: .7;
+    }
+    
+
+
+
+/* ourService css End  */
+
+/* footer css start  */
+                                                  
 .footer{
     text-align: center;
     padding: 50px 0;
