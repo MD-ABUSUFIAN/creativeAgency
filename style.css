@@ -160,12 +160,16 @@ h1,h2,h3,h4,h5,h6,span,a,div,section,img,svg{
    }
     .serviceCard{
         max-width: 370px;
-        border: 1px solid gray;
         padding: 63px 48px;
         border-radius: 10px;
         display: flex;
         flex-direction:column;
         row-gap: 25px;
+        cursor: pointer;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .serviceCard:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     .serviceCard__icon{
         padding: 17px;
@@ -189,6 +193,54 @@ h1,h2,h3,h4,h5,h6,span,a,div,section,img,svg{
 
 
 /* ourService css End  */
+
+/* our work portfolio css Start  */
+    .workCardWrapperTop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .workCardWrapperBottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .workCard{
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .workCard:hover .overlay{
+        left: 20px;
+    }
+ 
+    .overlay{
+        position: absolute;
+        
+        left: -250px;
+        bottom: 20px;
+        max-width: 230px;
+        padding: 25px 40px;
+        background: #5956E8;
+        border-radius: 10px;
+        text-align: center;
+        transition: all linear .6s;
+    }
+    .overlay__title{
+        font-size: 20px;
+        font-weight: 600;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+    }
+    .overlay__button{
+        font-size: 16px;
+        font-weight: 400;
+        color: #FFFFFF;
+        border: none;
+        background: none;
+    }
+/* our work portfolio css End  */
 
 /* footer css start  */
                                                   
