@@ -245,6 +245,7 @@ h1,h2,h3,h4,h5,h6,span,a,div,section,img,svg{
 /* our Expert TeamMember css Start  */
 .teamMember{
     margin: 100px 0px;
+
 }
 .teamMemberWrapper{
     display: flex;
@@ -307,7 +308,54 @@ h1,h2,h3,h4,h5,h6,span,a,div,section,img,svg{
     background: #5956E8;
 }
 
-/* our Expert TeamMember css End  */
+/* Our Customer  Experience css Start  */
+.customer-Modifier{
+    text-align: start;
+    max-width: 603px;
+    margin: 0;
+}
+.customerWrapper{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+.customerCard{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    row-gap: 20px;
+    max-width: 370px;
+    padding: 48px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.icon{
+    color: #FBBF25;
+    height: 20px;
+    width: 20px;
+}
+.customerCard__Summary{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #181818;
+    opacity: .7;
+}
+.cusotmer__Name{
+    font-weight:600;
+    font-size: 20px;
+    line-height: 27px;
+}
+.customerIcon{
+    height:43px;
+    width: 63px;
+    position: absolute;
+    right: 31px;
+    bottom: 24px;
+}
+/* Our Customer  Experience css End  */
+
+
 
 /* footer css start  */
                                                   
