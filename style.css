@@ -318,6 +318,7 @@ h1,h2,h3,h4,h5,h6,span,a,div,section,img,svg{
     display:flex ;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 .customerCard{
     position: relative;
